@@ -1,0 +1,128 @@
+  :root {
+    background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+
+  /* ---------MAIN MENU--------- */
+
+  .main-menu {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-menu h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    background-color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 4px double #aadad9;
+    border-radius: 50px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    animation: rainbow 10s infinite;   
+    animation-delay: 0.1s;
+  }
+
+  #cutter {
+    height: 100px;
+    width: 100px;
+  }
+
+  #start-btn, #credits-btn, #leaderboards-btn {
+    
+    border-radius: 50px;
+    border: 2px solid transparent;
+    font-family: cursive;
+
+    cursor: pointer;
+    transition: border-color 0.2s;
+    
+    width: 400px;
+    animation: rainbow 10s infinite;
+    margin-top: 20px;
+  }
+
+  #start-btn {
+    font-size: 70px;
+    font-weight: 500;
+    background-color: #ffffff34;
+    animation-delay: 0.2s;
+  }
+
+  #credits-btn {
+    animation-delay: 0.4s;
+    background-color: #ea8e1688;
+    padding: 10px;
+  }
+
+  #leaderboards-btn {
+    padding: 10px;
+    background-color: #6f80dfb4;
+    padding: 10px 30px;
+    animation-delay: 0.6s;
+  }
+
+  #start-btn:hover, #leaderboards-btn:hover, #credits-btn:hover {
+    border-color: #dedc38;
+    border-style: solid;
+  }
+
+  /* ---------CREDITS MENU--------- */
+
+  .credits-menu {
+
+  }
+
+  #credits-back-btn {
+    height: 50px;
+  }
+
+  .icon {
+    width: 100px;
+    margin-top: 150px;
+  }
+
+  .column {
+    width: 15%;
+    padding: 0 20px;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  /* ---------LEADERBOARDS MENU--------- */
+  
+  .leaderboards-menu {
+    
+  }
+
+  @keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+  }

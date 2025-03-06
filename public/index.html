@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Test</title>
+</head>
+<body>
+  <audio autoplay>
+    <source src="/public/assets/hihat.mp3" type="audio/mp3">
+  </audio>
+  
+  <!-- MAIN MENU -->
+  <div class="main-menu">
+    
+    <img src="/public/assets/cutter.png" id="cutter">
+    <h1 id="title">ROTR REDEEMERS</h1>
+    <button id="start-btn">START</button>
+    <button id="credits-btn">Credits</button>
+    <button id="leaderboards-btn">Leaderboards</button>
+  </div>
+  
+  <!-- CREDITS MENU -->
+  <div class="credits-menu">
+    <a href="https://uscga.edu/"><img src="/public/assets/uscga.png" id="logo"></a>
+    <button id="credits-back-btn">Back</button>
+    
+    <div class="column">
+      <div class="card">
+        <img src="/public/assets/icon.avif" alt="Tyler" class="icon">
+        <div class="desc" style="color: aliceblue">
+          <h2>Tyler Bissett</h2>
+          <p class="title">Some guy</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/public/assets/icon.avif" alt="Brendan" class="icon">
+        <div class="desc" style="color: aliceblue">
+          <h2>Brendan Love</h2>
+          <p>Some guy</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/public/assets/icon.avif" alt="Victor" class="icon">
+        <div class="desc" style="color: aliceblue">
+          <h2>Victor Parks</h2>
+          <p>Some guy</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="/public/assets/icon.avif" alt="Daniel" class="icon">
+        <div class="desc" style="color: aliceblue">
+          <h2>Daniel Yi</h2>
+          <p>Some Guy</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- LEADERBOARDS MENU -->
+  <div class="leaderboards-menu">
+    <ol>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+    <button id="leaderboards-back-btn">Back</button>
+  </div>      
+  
+  <!-- START MENU -->
+  <div class="start-menu">
+    <a href="https://www.raynormaritime.com/NavRules/Default.asp">Practice the questions here</a>
+    <button id="create-btn">Create Game</button>
+    <button id="join-btn">Join Game</button>
+    <button id="start-back-btn">Back</button>
+  </div>
+
+
+  <!-- CREATE MENU -->
+  <div class="create-menu">
+    <p id="time-msg">Select Game Period: 0</p>
+      <div class="time-btn"></div>
+      <button id="add-time-btn">+30</button>
+      <button id="sub-time-btn">-30</button>
+    <button id="ready-btn">READY</button>
+    <a href="./game/game.html"><button id="go-btn">go</button></a>
+    <button id="create-back-btn">Back</button>
+  </div>
+
+  <!-- JOIN MENU -->
+  <div class="join-menu">
+    <button>Join</button>
+    <label for="code">Type join code below</label>
+    <input id="code" type="text" placeholder="Enter join game">
+    <button id="join-back-btn">Back</button>
+  </div>
+  
+</div>
+<script src="index.js"></script>
+
+<!-- don't worry about this yet lol 
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+</script>
+-->
+
+</body>
+</html>
