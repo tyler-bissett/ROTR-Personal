@@ -13,22 +13,15 @@ Hello ROTR Redeemers, this is our web app version of the ROTR Redemption project
 	- To see changes your changes instantly, install VSCode extension "Live Server" and run on /public/index.html.
 
 ## TO-DO
-<ins>Yi</ins>: Styling
 - Fix menu and leaderboards frontend
-
-<ins>Parks</ins>: Communication
 - Get "homepage" file from last year's group.
 - See if Raynor Code is valuable to project
-
-<ins>Bissett</ins>: Functional requirements
 - Finish frontend for countdown screen and randomized question display with demo data (convert ASP text file to CSV for database storage)
 	- Start in a new HTML page
 - Make a countdown timer based on input time
 - Create a win and lose screen with return to menu button
 - Simulate multiplayer logic with JS
 - Eventually, send this back to RAYNOR
-
-<ins>Love</ins>: Looking ahead
 - Determine if backend implementation is feasible (leaderboards, client-server architecture with NodeJS, Real-time interaction with SocketIO)
 - Demo MongoDB for potential use as a question database; grab questions from database and display on HTML
 
@@ -41,7 +34,6 @@ https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-c
 https://www.w3schools.com/howto/howto_css_team.asp - Credits page html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions - Arrow functions for menu display.
 https://stackoverflow.com/questions/3244361/can-i-access-variables-from-another-file - Access variables between files
-
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - .md Format for this document.
 
 ### Pictures
